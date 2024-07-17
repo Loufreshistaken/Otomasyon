@@ -1,5 +1,6 @@
 package Tests;
 
+import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -7,6 +8,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class Test1 {
+
+    @Test
     public static void main(String[] args) {
         System.setProperty("wbdriver.chrome.driver","drivers/chromedriver");
 
