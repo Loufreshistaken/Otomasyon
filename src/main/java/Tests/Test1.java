@@ -10,15 +10,13 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class Test1 {
 
     @Test
-    public static void main(String[] args) {
-        System.setProperty("wbdriver.chrome.driver","drivers/chromedriver");
+    public void testDemoQA() {
+        System.setProperty("wbbdriver.chrome.driver", "drivers/chromedriver");
 
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
 
-        WebDriver driver = new ChromeDriver();
-
-        driver.manage().window().maximize();
+        WebDriver driver = new ChromeDriver(options);
 
         driver.get("https://demoqa.com");
         JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -27,5 +25,6 @@ public class Test1 {
         driver.findElement(By.cssSelector(".element-group:first-child #item-0")).click();
         js.executeScript("window.scrollBy(0,150)", "");
 
+        driver.quit(); // Test bitiminde WebDriver'ı kapatmak önemlidir
     }
 }
