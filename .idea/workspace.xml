@@ -6,13 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b6149259-9350-4b57-a9d0-1994a2e26d19" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests/Test2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests/Test2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/Otomasyon.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/Otomasyon.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Default Suite/Otomasyon.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Default Suite/Otomasyon.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/emailable-report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.Test1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/junitreports/TEST-Tests.Test1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/testng-results.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +33,11 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Diyanet.executor": "Run",
+    "Application.DiyanetKayit.executor": "Run",
     "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "TestNG.DiyanetKayit.executor": "Run",
     "TestNG.Test-output.executor": "Run",
     "TestNG.Test1.executor": "Run",
     "TestNG.Test1.testDemoQA.executor": "Run",
@@ -54,7 +50,37 @@
     "settings.editor.selected.configurable": "com.intellij.platform.ide.impl.presentationAssistant.PresentationAssistantConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Test1">
+  <component name="RunManager" selected="Application.Diyanet">
+    <configuration name="Diyanet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Tests.Diyanet" />
+      <module name="OLARTIK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DiyanetKayit" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="OLARTIK" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="Tests.DiyanetKayit" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test1" type="TestNG">
       <module name="OLARTIK" />
       <shortenClasspath name="NONE" />
@@ -95,11 +121,15 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.Diyanet" />
       <item itemvalue="TestNG.Test1" />
+      <item itemvalue="TestNG.DiyanetKayit" />
       <item itemvalue="TestNG.Test2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Diyanet" />
+        <item itemvalue="TestNG.DiyanetKayit" />
         <item itemvalue="TestNG.Test2" />
       </list>
     </recent_temporary>
